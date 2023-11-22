@@ -1,0 +1,40 @@
+bakgrunn = empty-color-scene(450, 450, "midnight-blue")
+moon2 = circle(100, "solid", "midnight-blue") ##himmel til månen 
+moon = circle(100, "solid", "white")
+blue1 = rectangle(500, 20, "solid", "navy") ##blå 1
+blue2 = rectangle(500, 30, "solid", "royal-blue") ##blå 2
+blue3 = rectangle( 500, 40, "solid", "dodger-blue")## blå 3
+blue4 = rectangle(500, 50, "solid", "cornflower-blue") ## blå 4
+blue5 = rectangle(500, 60, "solid", "steel-blue") ##blå 5
+    
+star1 = circle(20, "solid", "white") ## star 1 
+black1 = circle(20, "solid", "midnight-blue")
+black2 = circle(20, "solid", "midnight-blue")
+black3 = circle(20, "solid", "midnight-blue")
+black4 = circle(20, "solid", "midnight-blue")
+
+star2 = circle(30, "solid", "white") ## star 2 
+blackt = circle(30, "solid", "midnight-blue")
+blackb = circle(30, "solid", "midnight-blue")
+blackl = circle(30, "solid", "midnight-blue")
+blackh = circle(30, "solid", "midnight-blue")
+
+
+put-image(moon2, 400, 320,
+  put-image(moon, 350, 320,
+    put-image(blue5, 200, 30,
+      put-image(blue4, 200, 85,
+        put-image(blue3, 200, 130,
+          put-image(blue2, 200, 165,
+            put-image(blue1, 200, 190,
+              put-image(black1, 150, 370,
+                put-image(black2, 150, 330,
+                  put-image(black3, 110, 330,
+                    put-image(black4, 110, 370,
+                      put-image(star1, 130, 350,
+                        put-image(blackt, 230, 380,
+                          put-image(blackb, 230, 440,
+                            put-image(blackl, 170, 440, 
+                              put-image(blackh, 170, 380,
+                            put-image(star2, 200, 410,
+                                  bakgrunn)))))))))))))))))
